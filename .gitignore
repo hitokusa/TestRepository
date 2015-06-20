@@ -1,0 +1,72 @@
+# Reference from
+#
+# GitHub / Eclipse.gitignore
+# https://github.com/github/gitignore/blob/master/Global/Eclipse.gitignore
+#
+# gitignore.io
+# https://www.gitignore.io/
+# ( eclipse,java,osx,windows,playframework )
+
+# OS
+Thumbs.dba
+ehthumbs.db
+Desktop.ini
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# play framework
+/logs
+/project/project
+/project/target
+/target
+/tmp
+/RUNNING_PID
+
+# eclipse Setting
+/.classpath
+/.project
+/.settings
+
+# Build
+/out
+/build
+/bin
+
+# Other
+/dist/
+.history
+*.log
+*.swp
+*.bak
+
+Skip to content
+This repository  
+Pull requests
+Issues
+Gist
+ @hitokusa
+You don't have any verified emails. We recommend verifying at least one email.
+Email verification helps our support team verify ownership if you lose account access and allows you to receive all the notifications you ask for.
+ Watch 1,187
+  Star 25,346
+  Fork 9,285
+github/gitignore
+ branch: master  gitignore/Global/JetBrains.gitignore
+@GingerGeekGingerGeek on 16 Apr New IDE released: CLION
+12 contributors @thunsaker @samskiter @arcresu @jturmel @yatskevich @ssinss @Fuhrmann @ergl @drothmaler @Nainterceptor @cemmersb @GingerGeek
+RawBlameHistory     47 lines (34 sloc)  0.844 kB
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion
+
+*.iml
+
+## Directory-based project format:
+.idea/
+
+# IntelliJ
+/out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
